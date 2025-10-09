@@ -1,6 +1,7 @@
 {
-  "status": "success",
-  "data": {
+  "runtime": "npm",
+  "name": "cloc-languages",
+  "report": {
     "auditReportVersion": 2,
     "vulnerabilities": {},
     "metadata": {
@@ -14,12 +15,29 @@
       },
       "dependencies": {
         "prod": 1,
-        "dev": 1,
-        "optional": 0,
-        "peer": 0,
+        "dev": 738,
+        "optional": 6,
+        "peer": 222,
         "peerOptional": 0,
-        "total": 1
+        "total": 738
       }
     }
+  },
+  "dependencies": {
+    "@types/node": {
+      "current": "24.5.2",
+      "wanted": "24.7.0",
+      "latest": "24.7.0"
+    },
+    "typescript": {
+      "current": "5.9.2",
+      "wanted": "5.9.3",
+      "latest": "5.9.3"
+    }
+  },
+  "versions": {
+    "npm": "10.8.2",
+    "node": "20.19.5",
+    "v8": "11.3.244.8-node.30"
   }
 }
